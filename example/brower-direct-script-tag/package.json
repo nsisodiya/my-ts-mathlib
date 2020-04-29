@@ -5,16 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startIndexServer": "live-server --port=9090 .",
-    "startDistServer": "live-server --port=49090 ../../dist",
-    "start": "run-p startDistServer startIndexServer"
+    "startIndexServer": "../../node_modules/.bin/live-server --port=9090 .",
+    "startDistServer": "../../node_modules/.bin/live-server --port=49090 ../../dist",
+    "start": "../../node_modules/.bin/run-p startDistServer startIndexServer"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {
-    "live-server": "^1.2.1",
-    "npm-run-all": "^4.1.5"
-  }
+  "devDependencies": {}
 }
