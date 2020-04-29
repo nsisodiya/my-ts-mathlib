@@ -1,6 +1,4 @@
-//import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea';
-
-import { calRectangleArea } from 'my-ts-mathlib';
+import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea';
 
 // //You can uncomment and see this code should give error
 // var rect1 = { side1: '3', side2: '4' };

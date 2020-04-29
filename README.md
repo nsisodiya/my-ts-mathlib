@@ -32,15 +32,15 @@ ES Module
 
 CommonJS - Node
 
-- [ ] var { calRectangleArea } = require('my-ts-mathlib') should work
+- [x] var { calRectangleArea } = require('my-ts-mathlib') should work
 - [ ] var calRectangleArea = require('my-ts-mathlib/es/calRectangleArea') should work
 
 Node - TypeScript
 
-- [ ] import { calRectangleArea } from 'my-ts-mathlib' should work.
+- [x] import { calRectangleArea } from 'my-ts-mathlib' should work.
 - [ ] import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea' should work.
-- [ ] Vscode should show error if we send incorrect data to function.
-- [ ] npm run build should fail on providing incorrect type.
+- [x] Vscode should show error if we send incorrect data to function.
+- [x] npm run start should fail on providing incorrect type.
 
 CodeSandbox Demo
 
