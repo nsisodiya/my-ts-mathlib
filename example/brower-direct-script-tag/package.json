@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "startIndexServer": "../../node_modules/.bin/live-server --port=9090 .",
-    "startDistServer": "../../node_modules/.bin/live-server --port=49090 ../../dist",
-    "start": "../../node_modules/.bin/run-p startDistServer startIndexServer"
+    "start": "../../node_modules/.bin/live-server --port=9090 ."
   },
   "keywords": [],
   "author": "",
