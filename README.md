@@ -17,3 +17,4 @@ A demo of created lodash type utility library using TypeScript
 - [ ] library should work in Node, Browser and all sort of environments.
 - [ ] CircleCI build should run test cases.
 - [ ] when somebody generate pull request for adding new function, pull request should show test results in pull request.
+- [ ] Auto generate documentation like lodash.

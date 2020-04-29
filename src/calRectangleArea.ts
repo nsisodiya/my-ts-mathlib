@@ -1,6 +1,10 @@
+interface iRectangle {
+  side1: number;
+  side2: number;
+}
+
 export const calRectangleArea = function calRectangleArea(
-  side1: number,
-  side2: number
+  rect: iRectangle
 ): number {
-  return side1 * side2;
+  return rect.side1 * rect.side2;
 };

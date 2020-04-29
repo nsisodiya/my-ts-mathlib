@@ -2,7 +2,12 @@
   "name": "my-ts-mathlib",
   "version": "1.0.0",
   "description": "A demo of created lodash type utility library using TypeScript",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "index.ts",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
