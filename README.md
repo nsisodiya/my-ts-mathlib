@@ -5,6 +5,7 @@ A demo of created lodash type utility library using TypeScript
 # todos
 
 - [x] Basic Code in src folder
+- [x] UMD build with browser with direct script tag is working.
 - [ ] import { calSquareArea , calCircleArea, } from 'my-ts-mathlib' - Should work in demo code
 - [ ] import { calSquareArea } from 'my-ts-mathlib/esm/calSquareArea' - should work in demo code.
 - [ ] If somebody only use "calSquareArea" then it should not include source code of calCircleArea

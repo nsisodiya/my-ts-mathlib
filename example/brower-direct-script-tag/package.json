@@ -1,0 +1,20 @@
+{
+  "name": "brower-direct-script-tag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startIndexServer": "live-server --port=9090 .",
+    "startDistServer": "live-server --port=49090 ../../dist",
+    "start": "run-p startDistServer startIndexServer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
