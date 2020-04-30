@@ -14,7 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:microbundle": "microbundle build",
     "clean": "rimraf dist",
-    "build": "run-s clean build:microbundle"
+    "build": "run-s clean build:microbundle",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
