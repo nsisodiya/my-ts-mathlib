@@ -39,7 +39,7 @@ Browser env with CRA + TypeScript
 ES Module
 
 - [x] working demo for Script type="module"
-- [x] import { calSquareArea } from './node_modules/my-ts-mathlib/dist/index.modern.js'; should be working
+- [x] import { calSquareArea } from './node_modules/my-ts-mathlib/dist/index.module.js'; should be working
 - [ ] import calSquareArea from './node_modules/my-ts-mathlib/dist/es/calSquareArea.js'; should be working
 
 CommonJS - Node

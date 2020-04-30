@@ -1,4 +1,4 @@
-import { calSquareArea } from './node_modules/my-ts-mathlib/dist/index.modern.js';
+import { calSquareArea } from './node_modules/my-ts-mathlib/dist/index.module.js';
 
 var sqr1 = { side: '3' };
 
