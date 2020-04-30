@@ -1,6 +1,6 @@
 {
   "name": "my-ts-mathlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A demo of created lodash type utility library using TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
