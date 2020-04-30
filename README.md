@@ -25,7 +25,7 @@ Browser env with Parcel + TypeScript
 - [x] Vscode should show error if we send incorrect data to function.
 - [ ] npm run start should fail on providing incorrect type.
 - [ ] npm run build should fail on providing incorrect type.
-- [ ] calCircileArea should not be included in bundle
+- [ ] calCircleArea should not be included in bundle
 
 Browser env with CRA + TypeScript
 
@@ -34,7 +34,7 @@ Browser env with CRA + TypeScript
 - [x] Vscode should show error if we send incorrect data to function.
 - [x] npm run start should fail on providing incorrect type.
 - [x] npm run build should fail on providing incorrect type.
-- [x] calCircileArea should not be included in bundle
+- [x] calCircleArea should not be included in bundle
 
 ES Module
 
