@@ -23,8 +23,18 @@ Browser env with Parcel + TypeScript
 - [x] import { calRectangleArea } from 'my-ts-mathlib' should work.
 - [ ] import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea' should work.
 - [x] Vscode should show error if we send incorrect data to function.
+- [ ] npm run start should fail on providing incorrect type.
 - [ ] npm run build should fail on providing incorrect type.
-- [ ] Other functions should not be included in bundle
+- [ ] calCircileArea should not be included in bundle
+
+Browser env with CRA + TypeScript
+
+- [x] import { calRectangleArea } from 'my-ts-mathlib' should work.
+- [ ] import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea' should work.
+- [x] Vscode should show error if we send incorrect data to function.
+- [x] npm run start should fail on providing incorrect type.
+- [x] npm run build should fail on providing incorrect type.
+- [x] calCircileArea should not be included in bundle
 
 ES Module
 
