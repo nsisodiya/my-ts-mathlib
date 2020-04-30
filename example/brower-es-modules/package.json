@@ -1,0 +1,16 @@
+{
+  "name": "brower-direct-script-tag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "../../node_modules/.bin/live-server --port=9090 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "my-ts-mathlib": "^1.0.0"
+  },
+  "devDependencies": {}
+}

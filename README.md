@@ -38,7 +38,9 @@ Browser env with CRA + TypeScript
 
 ES Module
 
-- [ ] There should be demo of ESM modules in browser.
+- [x] working demo for Script type="module"
+- [x] import { calSquareArea } from './node_modules/my-ts-mathlib/dist/index.modern.js'; should be working
+- [ ] import calSquareArea from './node_modules/my-ts-mathlib/dist/es/calSquareArea.js'; should be working
 
 CommonJS - Node
 
