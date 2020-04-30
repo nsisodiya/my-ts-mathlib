@@ -1,8 +1,9 @@
 # my-ts-mathlib
 
-A demo of created lodash type utility library using TypeScript
+This is a boilerplate for small JavaScript utility library (like lodash) with typescript and microbundle.
+example folder has various demo.
 
-# todos
+# Tasks
 
 Src
 
@@ -23,8 +24,8 @@ Browser env with Parcel + TypeScript
 - [x] import { calRectangleArea } from 'my-ts-mathlib' should work.
 - [ ] import calRectangleArea from 'my-ts-mathlib/es/calRectangleArea' should work.
 - [x] Vscode should show error if we send incorrect data to function.
-- [ ] npm run start should fail on providing incorrect type.
-- [ ] npm run build should fail on providing incorrect type.
+- [x] npm run start should fail on providing incorrect type.
+- [x] npm run build should fail on providing incorrect type.
 - [ ] calCircleArea should not be included in bundle
 
 Browser env with CRA + TypeScript
